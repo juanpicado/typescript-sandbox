@@ -1,6 +1,9 @@
 import Decorators from './decorators/Decorators';
+import DecoratorMetadata from './decorators/DecoratorMetadata';
 
 const dec: any = new Decorators();
-const dec2: any = new Decorators();
+const dec2: any = new DecoratorMetadata();
 
-console.log(dec, dec2);
+dec.print('hola');
+
+console.log(dec);
